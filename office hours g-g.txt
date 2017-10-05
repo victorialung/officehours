@@ -1,0 +1,6 @@
+function arr(array){
+    array.push("");
+    return array.join("! ");
+}
+
+arr(["quack","sneeze","boom"]);
